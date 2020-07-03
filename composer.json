@@ -1,0 +1,13 @@
+{
+  "name": "antonchernik/logging-bundle",
+  "type": "symfony-bundle",
+  "description": "Useful classes for logging",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "symfony/monolog-bundle": "v3."
+  },
+  "autoload": {
+    "psr-4": { "LoggingBundle\\": "src/" }
+  }
+}
