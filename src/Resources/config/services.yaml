@@ -32,7 +32,7 @@ services:
     tags:
       - { name: monolog.processor }
 
-  monolog:
-    channels:
-      - 'api'
-      - 'console'
+monolog:
+  channels:
+    - 'api'
+    - 'console'
