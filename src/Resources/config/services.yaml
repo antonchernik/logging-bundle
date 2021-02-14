@@ -33,4 +33,6 @@ services:
       - { name: monolog.processor }
 
   monolog:
-    channels: ["api", "console"]
+    channels:
+      - 'api'
+      - 'console'
