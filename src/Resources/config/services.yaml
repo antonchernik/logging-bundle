@@ -31,8 +31,3 @@ services:
     class: Monolog\Processor\IntrospectionProcessor
     tags:
       - { name: monolog.processor }
-
-monolog:
-  channels:
-    - 'api'
-    - 'console'
