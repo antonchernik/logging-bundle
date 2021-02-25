@@ -4,7 +4,7 @@
   "description": "Useful classes for logging",
   "license": "MIT",
   "require": {
-    "php": "^7.2",
+    "php": ">=8.0",
     "symfony/monolog-bundle": ">=3.6"
   },
   "autoload": {
